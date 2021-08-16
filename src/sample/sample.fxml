@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400" maxWidth="600" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="162.0" style="-fx-background-color: #4f4aed;">
+         <children>
+            <Label alignment="CENTER" prefHeight="90.0" prefWidth="162.0" text="EasyScanner" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Italic" size="20.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#Load" prefHeight="47.0" prefWidth="162.0" style="-fx-background-color: #4f4aed;" text="Load File" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#Scan" prefHeight="47.0" prefWidth="162.0" style="-fx-background-color: #4f4aed;" text="Scan" textFill="WHITE" />
+            <Button mnemonicParsing="false" onAction="#Save" prefHeight="48.0" prefWidth="162.0" style="-fx-background-color: #4f4aed;" text="Save" textFill="WHITE" />
+         </children>
+      </VBox>
+      <Pane fx:id="pane" layoutX="200.0" layoutY="25.0" maxHeight="349.0" maxWidth="370.0" prefHeight="349.0" prefWidth="360.0" />
+   </children>
+</AnchorPane>

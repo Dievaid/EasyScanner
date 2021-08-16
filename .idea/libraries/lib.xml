@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib" />
+      <root url="file://$USER_HOME$/Downloads/PDFNetJava/PDFNetJava/Lib" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$USER_HOME$/Downloads/PDFNetJava/PDFNetJava/Lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/PDFNetJava/PDFNetJava/Lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
